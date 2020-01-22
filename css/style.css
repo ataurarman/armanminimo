@@ -1,0 +1,73 @@
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+/*header start*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body {
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	/* border: 1px solid black; */
+	margin: auto;
+
+}
+
+.logo {
+	float: left;
+	width: 10%;
+	/* border: 1px solid blue; */
+
+}
+
+.logo img {
+	width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 70%;
+	/* border: 1px solid rgb(252, 4, 4); */
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li {
+	list-style: none;
+	float: left;
+	
+}
+
+.menu ul li a {
+	color:#626262;
+	text-decoration: none;
+    padding: 9px 50px;
+    display: block;
+}
+
+.menu ul li:last-child a {
+    padding-right:  0px;
+}
+
+/*header end*/
+ /* banner start */
+ .banner {
+}
+
+.b_img {
+}
+
+.b_img img {
+	width: 100%;
+}
+
+/* banner end */
